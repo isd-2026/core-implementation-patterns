@@ -67,6 +67,15 @@ UML class diagram is a foundational tool created specifically for object-oriente
 - Attributes: name, type, visibility (public, protected, private, package)
 - Methods: name, parameters, return type, visibility
 
+> Visibility (attributes, methods)
+
+More strict in OOP languages like Java; less strict but configurable in a general-purpose language like Python.
+
+- Public: accessible from any class
+- Private: accessible within the same class
+- Package: accessible from classes within the same package
+- Protected: accessible in the same class, subclasses, and classes in the same package
+
 > Relationships
 
 | Relationship | Description | Illustration | Implementation (Typical) | 
