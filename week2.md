@@ -37,11 +37,16 @@ A full URL structure is:
 <protocol (http or https)>://<domain or ip address>:<port>/<path>
 ```
 
-On `localhost` (for our full-stack development), 
+> On `localhost` (for our full-stack development), 
 - Protocol is `http`.
 - Domain/IP address is (typically) `localhost` or `127.0.0.1`.
 - Port specifies which port to connect to. Some frameworks use default ports if none is specified (e.g., 3000 for React Dev Server, 5000 for Flask).
 - Path specifies the location of a specific resource or page on the server.
+
+> Same-origin (as opposed to cross-origin)
+- Same protocol: `http` or `https`
+- Same domain (host): `localhost`, `127.0.0.1`, etc
+- Same port
 
 ### Explanation
 
@@ -156,7 +161,7 @@ More details on [MDN HTTP Response Status Code](https://developer.mozilla.org/en
 
 An HTTP request (with cURL) may look like 
 ``` bash
-cURL -X POST http://127.0.0.1:8080/welcome \
+curl -X POST http://127.0.0.1:8080/welcome \
      -H "Content-Type: application/json" \
      -d '{"name":"TU1"}'
 ```
