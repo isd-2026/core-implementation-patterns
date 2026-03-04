@@ -141,6 +141,7 @@ If you start your project locally, you can later add a remote with `$ git remote
 - Each sub-issue has its own issue number.
 
 ## Development traceablity
+- Use keywords `close`, `closes`, `closed`, `fix`, `fixes`, `fixed`, `resolve`, `resolves`, `resolved` plus the issue number, e.g., `Closes #40` in a commit message to close the issue automatically.
 - A PR should ideally contain one complete user story, including implementation and testing.
 - Reference issues/sub-issues in test commits to link tests to user stories.
 - Use the keyword `Closes #40` in the PR description to automatically close `Issue #40` when the PR is merged, other recognized keywords are `Fixes` and `Resolves`.
