@@ -54,7 +54,7 @@ Commits are snapshots of your project.
 - Add a message directly to the commit with `$ git commit -m "a short description of the commit"`.
 - Add a custom message by using `$ git commit` which opens a `Vim` editor. You can use the `type(scope): description` convention, e.g., "implement(login): add server-side validation for user login".
 - View commit logs with `$ git log`
-- Use `$ git log --oneline --graph --decorate -–all` for a graph view.
+- Use `$ git log --oneline --graph --decorate --all` for a graph view.
 - `$ git show <commit-hash>` shows the commit message, author/date, line-by-line diffs.
 
 > Areas
