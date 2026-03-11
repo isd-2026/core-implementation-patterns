@@ -11,7 +11,7 @@ Once the assignment task is released, you may be given time to work on the assig
 > Read the content as an online book with
 ``` bash
 # install mkdoc (e.g., in a venv), mermaid2
-pip install mkdocs-material mkdocs-mermaid2-plugin
+pip install mkdocs mkdocs-material mkdocs-mermaid2-plugin
 
 # Read in browser at http://localhost:<port>
 mkdocs serve --dev-addr 127.0.0.1:<port>
